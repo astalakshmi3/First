@@ -9,42 +9,58 @@ In this project, I wrote down the Git commands I used to create and modify files
 
 # Steps
 
-Create a new folder
+# Create a new folder
 
-# mkdir First
+ mkdir First
 
 
-Change the working directory
+# Change the working directory
 
-# cd First
+ cd First
 
-Initialize a new Git repository
+# TASK 1
+
+# 1. Initialize a new  local Git repository
 This command tells Git to start tracking changes in the folder.
 
-# git init
+ git init
+
+Creates a new Git repository in my project folder.
+
+# 2. Create file and mAKE THE FIRST COMMIT
+
+Add the file to Staging and commit the first file.
+
+ git add check.txt
+ git commit -m "My first line"
 
 
-Stage and commit the first file
+Add the file to Stage and commit the second file.
 
-# git add check.txt
-# git commit -m "My first line"
-
-
-Stage and commit the second file
-
-# git add .gitignore
-# git commit -m "My second line"
+ git add .gitignore
+ git commit -m "My second line"
 
 
-Stage and commit the third file
+Add the file to Stage and commit the third file.
 
-# git add README.md
-# git commit -m "My third line"
+ git add README.md
+ git commit -m "My third line"
 
+# 3. Connect to GitHub and push
 
-Push the project to the GitHub repository
+ git branch -M main
+ git remote add origin <url>
+ git push -u origin main
 
-# git push -u origin main
+Links my local repo to my GitHub repository and uploads it.
+
+# 4. Track more changes
+
+git add README.md
+git comitt -m "Written the commands"
+
+Task 2
+
 
 
 # Thank you
